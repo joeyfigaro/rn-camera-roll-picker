@@ -1,5 +1,5 @@
 {
-  "name": "react-native-camera-roll-picker",
+  "name": "@joeyfigaro/rn-camera-roll-picker",
   "version": "1.0.7",
   "description": "A camera-roll picker component for react-native",
   "main": "index.js",
