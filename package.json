@@ -1,17 +1,20 @@
 {
-  "name": "@kebetoo/camera-roll-picker",
+  "name": "react-native-camera-roll-picker",
   "version": "1.0.7",
   "description": "A camera-roll picker component for react-native",
   "main": "index.js",
+  "types": "types.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "prettier": "*"
+  },
   "peerDependencies": {
     "@react-native-community/cameraroll": "^4.0.1",
-    "react-native": ">=0.59",
-    "react-native-vector-icons": "^7.1.0"
+    "react-native": ">=0.59"
   },
-  "author": "bacarybruno",
+  "author": "Joey Figaro",
   "license": "MIT",
   "keywords": [
     "react-native",

@@ -9,7 +9,6 @@ import {
   PermissionsAndroid,
   Dimensions,
 } from 'react-native'
-import Ionicon from 'react-native-vector-icons/Ionicons'
 import CameraRoll from '@react-native-community/cameraroll'
 
 import Row from './Row'
@@ -272,17 +271,10 @@ CameraRollPicker.defaultProps = {
     return status === 'granted'
   },
   selectedMarker: (
-    <Ionicon
-      name={Platform.select({ android: 'md-checkmark-circle', ios: 'ios-checkmark-circle' })}
-      size={25}
-    />
+    <View style={{ width: 30, height: 30, backgroundColor: 'green' }} />
   ),
   videoMarker: (
-    <Ionicon
-      name={Platform.select({ android: 'md-videocam', ios: 'md-videocam' })}
-      size={15}
-      color="white"
-    />
+    <View style={{ width: 30, height: 30, backgroundColor: 'blue' }} />
   ),
 }
 
