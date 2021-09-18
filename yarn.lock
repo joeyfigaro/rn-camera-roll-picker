@@ -5,6 +5,17 @@ __metadata:
   version: 4
   cacheKey: 7
 
+"@joeyfigaro/rn-camera-roll-picker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@joeyfigaro/rn-camera-roll-picker@workspace:."
+  dependencies:
+    prettier: "*"
+  peerDependencies:
+    "@react-native-community/cameraroll": ^4.0.1
+    react-native: ">=0.59"
+  languageName: unknown
+  linkType: soft
+
 "prettier@npm:*":
   version: 2.4.1
   resolution: "prettier@npm:2.4.1"
@@ -13,14 +24,3 @@ __metadata:
   checksum: d72ebe33441651cdb334d05d8d180bedbb6f8ca9db47163719b9763f3f471d27b9dc86b9f2c9383773681ff836eb5951acd1809871077c9313609f7b7e05554e
   languageName: node
   linkType: hard
-
-"react-native-camera-roll-picker@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-camera-roll-picker@workspace:."
-  dependencies:
-    prettier: "*"
-  peerDependencies:
-    "@react-native-community/cameraroll": ^4.0.1
-    react-native: ">=0.59"
-  languageName: unknown
-  linkType: soft
