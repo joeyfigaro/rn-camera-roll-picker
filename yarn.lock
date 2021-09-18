@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@joeyfigaro/rn-camera-roll-picker@workspace:.":
+"@shovelandsandbox/rn-camera-roll-picker@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@joeyfigaro/rn-camera-roll-picker@workspace:."
+  resolution: "@shovelandsandbox/rn-camera-roll-picker@workspace:."
   dependencies:
     prettier: "*"
   peerDependencies:
